@@ -469,9 +469,9 @@ HTML;
         }
     }
 
-    public function isMobile()
+    public function isMobile($check = true)
     {
-        return waRequest::isMobile();
+        return waRequest::isMobile($check);
     }
 
 
